@@ -1,0 +1,98 @@
+Arguments: 
+  D:\bao\nodejs\node.exe C:\Users\ext.gaoyawei\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;D:\bao\nodejs\;D:\bao\git\Git\cmd;C:\Users\ext.gaoyawei\AppData\Local\Microsoft\WindowsApps;;D:\bao\vscode\Microsoft VS Code\bin;C:\Users\ext.gaoyawei\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/define-property/download/define-property-1.0.0.tgz: Request failed "502 Bad Gateway"
+      at ResponseError.ExtendableBuiltin (C:\Users\ext.gaoyawei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\ext.gaoyawei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\ext.gaoyawei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67058:16)
+      at Request.emit (events.js:315:20)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\ext.gaoyawei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141539:10)
+      at ClientRequest.emit (events.js:315:20)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:641:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:509:22)
+
+npm manifest: 
+  {
+    "name": "First-Taro",
+    "version": "1.0.0",
+    "private": true,
+    "description": "第一个taro小程序项目",
+    "templateInfo": {
+      "name": "default",
+      "typescript": true,
+      "css": "less"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "build:qq": "taro build --type qq",
+      "build:jd": "taro build --type jd",
+      "build:quickapp": "taro build --type quickapp",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch",
+      "dev:qq": "npm run build:qq -- --watch",
+      "dev:jd": "npm run build:jd -- --watch",
+      "dev:quickapp": "npm run build:quickapp -- --watch"
+    },
+    "browserslist": [
+      "last 3 versions",
+      "Android >= 4.1",
+      "ios >= 8"
+    ],
+    "author": "",
+    "dependencies": {
+      "@babel/runtime": "^7.7.7",
+      "@tarojs/components": "3.0.27",
+      "@tarojs/runtime": "3.0.27",
+      "@tarojs/taro": "3.0.27",
+      "@tarojs/react": "3.0.27",
+      "react-dom": "^16.10.0",
+      "react": "^16.10.0"
+    },
+    "devDependencies": {
+      "@types/webpack-env": "^1.13.6",
+      "@types/react": "^16.0.0",
+      "@tarojs/mini-runner": "3.0.27",
+      "@babel/core": "^7.8.0",
+      "@tarojs/webpack-runner": "3.0.27",
+      "babel-preset-taro": "3.0.27",
+      "eslint-config-taro": "3.0.27",
+      "eslint": "^6.8.0",
+      "eslint-plugin-react": "^7.8.2",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-react-hooks": "^1.6.1",
+      "stylelint": "9.3.0",
+      "@typescript-eslint/parser": "^2.x",
+      "@typescript-eslint/eslint-plugin": "^2.x",
+      "typescript": "^3.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
